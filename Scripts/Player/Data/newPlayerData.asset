@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cfb7837be0cdd14a80e1d45b307994f, type: 3}
+  m_Name: newPlayerData
+  m_EditorClassIdentifier: 
+  movementVelocity: 6
+  jumpVelocity: 10
+  amountOfJumps: 1
+  wallJumpVelocity: 15
+  wallJumpTime: 0.4
+  wallJumpAngle: {x: 1, y: 2}
+  coyoteTime: 0.2
+  variableJumpHeightMultiplier: 0.6
+  wallSlideVelocity: 3
+  wallClimbVelocity: 3
+  startOffset: {x: 0.5, y: 1.9}
+  stopOffset: {x: 0.22, y: -0.25}
+  crouchMovementVelocity: 1.5
+  crouchColliderHeight: 3.8
+  standColliderHeight: 6.2
+  crawlColliderHeight: 2
+  groundCheckRadius: 0.2
+  wallCheckDistance: 0.6
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 64
+  whatIsClimable:
+    serializedVersion: 2
+    m_Bits: 256
